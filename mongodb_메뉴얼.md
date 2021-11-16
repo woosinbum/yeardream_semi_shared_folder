@@ -2,7 +2,7 @@
 1. pip install pymongo[srv]
 
 2. 코드 작성(예시)
-from pymongo import MongoClient
+from pymongo import MongoClient  
 client = MongoClient("mongodb+srv://<ID>:<password>@cluster0.cu0c3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")  
         - ID / PW는 atlas 유저 ID / PW
 
